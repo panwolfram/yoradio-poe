@@ -234,13 +234,13 @@ void MyNetwork::begin() {
   WiFi.onEvent(onNetEvent);
 
   if (config.ssidsCount == 0 || DBGAP) {
-    raiseSoftAP();
+    // raiseSoftAP();
     return;
   }
 
   if (config.getMode() != PM_SDCARD) {
     if (!ethBegin()) {
-      raiseSoftAP();                  // keep AP fallback for first-time config
+      // raiseSoftAP();                  // keep AP fallback for first-time config
       Serial.println("##[BOOT]#\tdone");
       return;
     }
