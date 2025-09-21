@@ -160,7 +160,7 @@ void Telnet::printf(uint8_t id, const char *format, ...) {
 
 void Telnet::on_connect(const char* str, uint32_t clientId) {
   Serial.printf("Telnet: [%d] %s connected\n", clientId, str);
-  print(clientId, "\nWelcome to ёRadio!\n(Use ^] + q  to disconnect.)\n> ");
+  print(clientId, "\nWelcome to LAN Streamer!\n(Use ^] + q  to disconnect.)\n> ");
 }
 
 void Telnet::info() {

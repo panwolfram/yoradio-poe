@@ -59,7 +59,7 @@ const char           rssiFmt[]    PROGMEM = "";
 const MoveConfig    clockMove     PROGMEM = { 0, 0, -1 };
 const MoveConfig   weatherMove    PROGMEM = { 0, 0, -1 };
 const MoveConfig   weatherMoveVU    PROGMEM = { 0, 0, -1 };
-const char  const_lcdApMode[]    PROGMEM = "YORADIO AP MODE";
+const char  const_lcdApMode[]    PROGMEM = "LANSTREAMER AP MODE";
 const char  const_lcdApName[]    PROGMEM = "AP NAME: ";
 const char  const_lcdApPass[]    PROGMEM = "PASSWORD: ";
 
