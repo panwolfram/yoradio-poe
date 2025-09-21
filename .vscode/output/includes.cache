@@ -1,0 +1,1067 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\yoRadio.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\Adafruit_GC9106Ex\\Adafruit_GC9106Ex.cpp",
+    "Include": "ETH.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Ethernet\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\Adafruit_GC9106Ex\\Adafruit_GC9106Ex.cpp",
+    "Include": "Network.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\Adafruit_GC9106Ex\\Adafruit_GC9106Ex.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\Adafruit_GC9106Ex\\Adafruit_GC9106Ex.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\Adafruit_GC9A01A\\Adafruit_GC9A01A.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\Adafruit_ST7796S\\Adafruit_ST7796S_kbv.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\AsyncEventSource.cpp",
+    "Include": "FS.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\FS\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\AsyncEventSource.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\AsyncTCP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\AsyncWebSocket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\SPIFFSEditor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\WebAuthentication.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\WebHandlers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\WebRequest.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\WebResponses.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\AsyncWebServer\\WebServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\GT911_Touchscreen\\TAMC_GT911.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\GT911_Touchscreen\\TAMC_GT911.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\ILI9225Fix\\TFT_22_ILI9225Fix.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\ILI9488\\ILI9486_SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\IRac.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\IRrecv.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\IRsend.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\IRtext.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\IRtimer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\IRutils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Airton.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Airwell.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Aiwa.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Amcor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Argo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Arris.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Bosch.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Bose.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Carrier.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_ClimaButler.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Coolix.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Corona.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Daikin.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Delonghi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Denon.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Dish.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Doshisha.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Ecoclim.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Electra.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_EliteScreens.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Epson.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Fujitsu.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_GICable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_GlobalCache.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Goodweather.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Gorenje.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Gree.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Haier.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Hitachi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Inax.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_JVC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Kelon.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Kelvinator.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_LG.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Lasertag.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Lego.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Lutron.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_MWM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Magiquest.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Metz.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Midea.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_MilesTag2.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Mirage.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Mitsubishi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_MitsubishiHeavy.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Multibrackets.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_NEC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Neoclima.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Nikai.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Panasonic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Pioneer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Pronto.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_RC5_RC6.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_RCMM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Rhoss.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Samsung.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Sanyo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Sharp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Sherwood.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Sony.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Symphony.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Tcl.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Technibel.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Teco.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Teknopoint.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Toshiba.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Toto.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Transcold.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Trotec.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Truma.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Vestel.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Voltas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Whirlpool.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Whynter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Wowwee.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Xmp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_York.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\IRremoteESP8266\\ir_Zepeal.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\LiquidCrystalI2C\\LiquidCrystalI2CEx.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\OneButton\\OneButton.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\SSD1322\\SSD1322.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\ST7920\\ST7920.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\ConnAckPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\Connect.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\Disconn.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\OutPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\PingReq.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\PubAck.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\Publish.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\Subscribe.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\Out\\Unsubscribe.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\PingRespPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\PubAckPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\PubCompPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\PubRecPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\PubRelPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\PublishPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\SubAckPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient\\Packets\\UnsubAckPacket.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\async-mqtt-client\\AsyncMqttClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "WiFiClientSecure.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\NetworkClientSecure\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "SD.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SD\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "SD_MMC.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SD_MMC\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "SPIFFS.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SPIFFS\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "FFat.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\FFat\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "Ticker.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Ticker\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "EEPROM.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\EEPROM\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\Audio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\aac_decoder\\aac_decoder.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\flac_decoder\\flac_decoder.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioI2S\\mp3_decoder\\mp3_decoder.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\audioVS1053\\audioVS1053Ex.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\config.cpp",
+    "Include": "AsyncUDP.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\AsyncUDP\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\config.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\controls.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\display.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\mqtt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\netserver.cpp",
+    "Include": "Update.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Update\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\netserver.cpp",
+    "Include": "ESPmDNS.h",
+    "Includepath": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\ESPmDNS\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\netserver.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\network.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\player.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\rtcsupport.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\sdmanager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\telnet.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\core\\touchscreen.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayGC9106.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayGC9A01A.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayILI9225.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayILI9341.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayILI9488.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayLC1602.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayN5110.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displaySH1106.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displaySSD1305.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displaySSD1306.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displaySSD1322.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displaySSD1327.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayST7735.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayST7789.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayST7796.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\displayST7920.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\fonts\\yofont10x14.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\fonts\\yofont5x7.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\nextion.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\widgets\\pages.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\displays\\widgets\\widgets.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\main.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\pluginsManager\\pluginsManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\Documents\\Arduino Projects\\yoradio\\yoRadio\\.vscode\\output\\sketch\\src\\yoEncoder\\yoEncoder.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Ethernet\\src\\ETH.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src\\NetworkClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src\\NetworkEvents.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src\\NetworkInterface.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src\\NetworkManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src\\NetworkServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Network\\src\\NetworkUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SPI\\src\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\FS\\src\\FS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\FS\\src\\vfs_api.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\AP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\STA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\NetworkClientSecure\\src\\NetworkClientSecure.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\NetworkClientSecure\\src\\ssl_client.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SD\\src\\SD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SD\\src\\sd_diskio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SD\\src\\sd_diskio_crc.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SD_MMC\\src\\SD_MMC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\SPIFFS\\src\\SPIFFS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\FFat\\src\\FFat.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Ticker\\src\\Ticker.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\EEPROM\\src\\EEPROM.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\AsyncUDP\\src\\AsyncUDP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Update\\src\\HttpsOTAUpdate.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\Update\\src\\Updater.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\mwolfram\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.5\\libraries\\ESPmDNS\\src\\ESPmDNS.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
