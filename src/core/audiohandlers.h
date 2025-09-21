@@ -117,7 +117,7 @@ void audio_eof_mp3(const char *info){  //end of file
 
 void audio_eof_stream(const char *info){
   player.sendCommand({PR_STOP, 0});
-  if(!player.resumeAfterUrl) return;
+  // if(!player.resumeAfterUrl) return;
   if (config.getMode()==PM_WEB){
     player.sendCommand({PR_PLAY, config.lastStation()});
   }else{

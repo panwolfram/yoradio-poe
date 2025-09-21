@@ -28,6 +28,18 @@ void doSync(void * pvParameters);
 /* ================= Ethernet event bridge ================= */
 static void onNetEvent(arduino_event_id_t event, arduino_event_info_t info) {
   switch (event) {
+    case ARDUINO_EVENT_ETH_START:
+      network.setEthParams();
+      // if(strlen(config.store.mdnsname)>0){
+      //   ETH.setHostname(config.store.mdnsname);
+      //   MDNS.begin(config.store.mdnsname);
+      // }else{
+      //   char buf[MDNS_LENGTH];
+      //   snprintf(buf, MDNS_LENGTH, "lan-streamer-%x", config.getChipId());
+      //   ETH.setHostname(buf);
+      //   MDNS.begin(buf);
+      // }
+      break;
     case ARDUINO_EVENT_ETH_GOT_IP:
       network.status = CONNECTED;
       network.beginReconnect = false;
@@ -38,7 +50,7 @@ static void onNetEvent(arduino_event_id_t event, arduino_event_info_t info) {
       if (config.getMode() == PM_SDCARD) {
         display.putRequest(NEWIP, 0);
       } else {
-        if (network.lostPlaying) {
+        if (config.store.smartstart == 1) {
           player.sendCommand({PR_PLAY, config.lastStation()});
         }
       }
@@ -235,13 +247,16 @@ void MyNetwork::begin() {
 
   if (config.ssidsCount == 0 || DBGAP) {
     // raiseSoftAP();
+    ethBegin();
+    setEthParams();
     return;
   }
 
   if (config.getMode() != PM_SDCARD) {
     if (!ethBegin()) {
       // raiseSoftAP();                  // keep AP fallback for first-time config
-      Serial.println("##[BOOT]#\tdone");
+      setEthParams();
+      Serial.println("##[BOOT]#\tEthernet init failed!");
       return;
     }
     Serial.println(".");
@@ -250,7 +265,6 @@ void MyNetwork::begin() {
     // start services & network params
     netserver.begin(true);
     telnet.begin(true);
-    setEthParams();
     display.putRequest(NEWIP, 0);
   } else {
     status = SDREADY;
@@ -282,7 +296,7 @@ void MyNetwork::setEthParams(){
     MDNS.begin(config.store.mdnsname);
   }else{
     char buf[MDNS_LENGTH];
-    snprintf(buf, MDNS_LENGTH, "yoradio-%x", config.getChipId());
+    snprintf(buf, MDNS_LENGTH, "lan-streamer-%x", config.getChipId());
     ETH.setHostname(buf);
     MDNS.begin(buf);
   }

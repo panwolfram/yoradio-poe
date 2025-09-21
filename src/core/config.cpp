@@ -102,7 +102,7 @@ void Config::_setupVersion(){
       break;
     case 2:
       char buf[MDNS_LENGTH];
-      snprintf(buf, MDNS_LENGTH, "yoradio-%x", getChipId());
+      snprintf(buf, MDNS_LENGTH, "lan-streamer-%x", getChipId());
       saveValue(store.mdnsname, buf, MDNS_LENGTH);
       saveValue(&store.skipPlaylistUpDown, false);
       break;
@@ -332,7 +332,7 @@ void Config::setDefaults() {
   store.countStation = 0;
   store.lastSSID = 0;
   store.audioinfo = false;
-  store.smartstart = 2;
+  store.smartstart = 1;
   store.tzHour = 3;
   store.tzMin = 0;
   store.timezoneOffset = 0;
@@ -373,7 +373,7 @@ void Config::setDefaults() {
   store.rotate90 = false;
   store.screensaverEnabled = false;
   store.screensaverTimeout = 20;
-  snprintf(store.mdnsname, MDNS_LENGTH, "yoradio-%x", getChipId());
+  snprintf(store.mdnsname, MDNS_LENGTH, "lan-streamer-%x", getChipId());
   store.skipPlaylistUpDown = false;
   store.screensaverPlayingEnabled = false;
   store.screensaverPlayingTimeout = 5;
@@ -505,7 +505,7 @@ bool Config::loadStation(uint16_t ls) {
   if (cs == 0) {
     memset(station.url, 0, BUFLEN);
     memset(station.name, 0, BUFLEN);
-    strncpy(station.name, "ёRadio", BUFLEN);
+    strncpy(station.name, "LAN Streamer", BUFLEN);
     station.ovol = 0;
     return false;
   }
@@ -817,7 +817,7 @@ void Config::sleepForAfter(uint16_t sf, uint16_t sa){
 
 void Config::bootInfo() {
   BOOTLOG("************************************************");
-  BOOTLOG("*               ёPadio v%s                *", YOVERSION);
+  BOOTLOG("*         LAN Streamer v%s                *", YOVERSION);
   BOOTLOG("************************************************");
   BOOTLOG("------------------------------------------------");
   BOOTLOG("arduino:\t%d", ARDUINO);
@@ -837,7 +837,7 @@ void Config::bootInfo() {
   BOOTLOG("audioinfo:\t%s", store.audioinfo?"true":"false");
   BOOTLOG("smartstart:\t%d", store.smartstart);
   BOOTLOG("vumeter:\t%s", store.vumeter?"true":"false");
-  BOOTLOG("softapdelay:\t%d", store.softapdelay);
+  // BOOTLOG("softapdelay:\t%d", store.softapdelay);
   BOOTLOG("flipscreen:\t%s", store.flipscreen?"true":"false");
   BOOTLOG("invertdisplay:\t%s", store.invertdisplay?"true":"false");
   BOOTLOG("showweather:\t%s", store.showweather?"true":"false");

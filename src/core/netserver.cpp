@@ -427,7 +427,7 @@ void NetServer::onWsMessage(void *arg, uint8_t *data, size_t len, uint32_t clien
       if (strcmp(cmd, "smartstart") == 0) {
         uint8_t valb = atoi(val);
         uint8_t ss = valb == 1 ? 1 : 2;
-        if (!player.isRunning() && ss == 1) ss = 0;
+        // if (!player.isRunning() && ss == 1) ss = 0;
         config.setSmartStart(ss);
         return;
       }
@@ -647,7 +647,7 @@ void NetServer::onWsMessage(void *arg, uint8_t *data, size_t len, uint32_t clien
           config.saveValue(&config.store.audioinfo, false, false);
           config.saveValue(&config.store.vumeter, false, false);
           config.saveValue(&config.store.softapdelay, (uint8_t)0, false);
-          snprintf(config.store.mdnsname, MDNS_LENGTH, "yoradio-%x", config.getChipId());
+          snprintf(config.store.mdnsname, MDNS_LENGTH, "lan-streamer-%x", config.getChipId());
           config.saveValue(config.store.mdnsname, config.store.mdnsname, MDNS_LENGTH, true, true);
           display.putRequest(NEWMODE, CLEAR); display.putRequest(NEWMODE, PLAYER);
           requestOnChange(GETSYSTEM, clientId);

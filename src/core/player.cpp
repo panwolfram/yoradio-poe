@@ -77,7 +77,7 @@ void Player::resetQueue(){
 }
 
 void Player::stopInfo() {
-  config.setSmartStart(0);
+  // config.setSmartStart(0);
   //telnet.info();
   netserver.requestOnChange(MODE, 0);
 }
@@ -210,7 +210,7 @@ void Player::_play(uint16_t stationId) {
   netserver.loop();
   netserver.loop();
   if(config.store.smartstart!=2)
-    config.setSmartStart(0);
+    config.setSmartStart(1);
   bool isConnected = false;
   if(config.getMode()==PM_SDCARD && SDC_CS!=255){
     isConnected=connecttoFS(sdman,config.station.url,config.sdResumePos==0?_resumeFilePos:config.sdResumePos-player.sd_min);
@@ -238,6 +238,7 @@ void Player::_play(uint16_t stationId) {
     telnet.printf("##ERROR#:\tError connecting to %s\n", config.station.url);
     SET_PLAY_ERROR("Error connecting to %s", config.station.url);
     _stop(true);
+    sendCommand({PR_PLAY, config.lastStation()});
   };
 }
 
