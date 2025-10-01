@@ -74,6 +74,10 @@ void audio_error(const char *info) {
   //config.setTitle(info);
   player.setError(info);
   telnet.printf("##ERROR#:\t%s\n", info);
+  if (config.store.smartstart == 1) {
+    player.sendCommand({PR_STOP, 0});
+    player.sendCommand({PR_PLAY, config.lastStation()});
+  }
 }
 
 void audio_id3artist(const char *info){
