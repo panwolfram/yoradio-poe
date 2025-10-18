@@ -6,6 +6,10 @@
 #include "network.h"
 #include "telnet.h"
 
+#include <esp_task_wdt.h>
+#include <esp_idf_version.h>
+#include "freertos/FreeRTOS.h"
+
 Telnet telnet;
 
 bool Telnet::_isIPSet(IPAddress ip) {
@@ -185,10 +189,12 @@ void Telnet::on_input(const char* str, uint32_t clientId) {
   if (strlen(str) == 0) return;
   if(network.status == CONNECTED){
     if (strcmp(str, "cli.prev") == 0 || strcmp(str, "prev") == 0) {
+      player.disableStopByUser();
       player.prev();
       return;
     }
     if (strcmp(str, "cli.next") == 0 || strcmp(str, "next") == 0) {
+      player.disableStopByUser();
       player.next();
       return;
     }
@@ -197,11 +203,13 @@ void Telnet::on_input(const char* str, uint32_t clientId) {
       return;
     }
     if (strcmp(str, "cli.stop") == 0 || strcmp(str, "stop") == 0) {
+      player.enableStopByUser();
       player.sendCommand({PR_STOP, 0});
       //info();
       return;
     }
     if (strcmp(str, "cli.start") == 0 || strcmp(str, "start") == 0 || strcmp(str, "cli.play") == 0 || strcmp(str, "play") == 0) {
+      player.disableStopByUser();
       player.sendCommand({PR_PLAY, config.lastStation()});
       return;
     }

@@ -32,6 +32,7 @@ class Player: public Audio {
   private:
     uint32_t    _volTicks;   /* delayed volume save  */
     bool        _volTimer;   /* delayed volume save  */
+    bool        userStopped = false;
     uint32_t    _resumeFilePos;
     plStatus_e  _status;
     char        _plError[PLERR_LN];
@@ -39,6 +40,7 @@ class Player: public Audio {
     void _stop(bool alreadyStopped = false);
     void _play(uint16_t stationId);
     void _loadVol(uint8_t volume);
+    void watchdogPlayback();
   public:
     bool lockOutput = true;
     bool resumeAfterUrl = false;
@@ -55,6 +57,10 @@ class Player: public Audio {
     bool hasError() { return strlen(_plError)>0; }
     void sendCommand(playerRequestParams_t request);
     void resetQueue();
+    void enableStopByUser();
+    void disableStopByUser();
+    bool isStoppedByUser();
+    bool isStopped();
     #ifdef MQTT_ROOT_TOPIC
     void browseUrl();
     #endif

@@ -79,10 +79,12 @@ void onMqttMessage(char* topic, char* payload, AsyncMqttClientMessageProperties 
   memset(buf, 0, 20);
   strlcpy(buf, payload, len+1);
   if (strcmp(buf, "prev") == 0) {
+    player.disableStopByUser();
     player.prev();
     return;
   }
   if (strcmp(buf, "next") == 0) {
+    player.disableStopByUser();
     player.next();
     return;
   }
@@ -91,11 +93,13 @@ void onMqttMessage(char* topic, char* payload, AsyncMqttClientMessageProperties 
     return;
   }
   if (strcmp(buf, "stop") == 0) {
+    player.enableStopByUser();
     player.sendCommand({PR_STOP, 0});
     //telnet.info();
     return;
   }
   if (strcmp(buf, "start") == 0 || strcmp(buf, "play") == 0) {
+    player.disableStopByUser();
     player.sendCommand({PR_PLAY, config.lastStation()});
     return;
   }
@@ -115,9 +119,10 @@ void onMqttMessage(char* topic, char* payload, AsyncMqttClientMessageProperties 
     uint8_t sst = config.store.smartstart;
     config.setDspOn(0);
     player.sendCommand({PR_STOP, 0});
+    player.enableStopByUser();
     //telnet.info();
     delay(100);
-    config.saveValue(&config.store.smartstart, sst);
+    // config.saveValue(&config.store.smartstart, sst);
     return;
   }
   if (strcmp(buf, "turnon") == 0) {

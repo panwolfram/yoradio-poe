@@ -5,6 +5,7 @@
 #include "display.h"
 #include "sdmanager.h"
 #include "netserver.h"
+#include "esp_task_wdt.h"
 
 Player player;
 QueueHandle_t playerQueue;
@@ -175,6 +176,49 @@ void Player::loop() {
     browseUrl();
   }
 #endif
+  watchdogPlayback();
+}
+
+void Player::enableStopByUser() {
+  player.userStopped = true;
+}
+
+void Player::disableStopByUser() {
+  player.userStopped = false;
+}
+
+bool Player::isStoppedByUser() {
+  return player.userStopped;
+}
+
+bool Player::isStopped() {
+  return player._status==STOPPED;
+}
+
+void Player::watchdogPlayback() {
+    if (config.emptyFS) return;
+
+    static unsigned long lastWatchdog = 0;
+    if (millis() - lastWatchdog > 5000) {
+        lastWatchdog = millis();
+        if (config.store.smartstart == 1) {
+          if (config.playlistLength() == 0) {
+            BOOTLOG("##[WDT]#\tPlaylist empty, cannot start playback");
+            return;
+          }
+          if (player.isStopped() && !player.isStoppedByUser()) {
+              BOOTLOG("##[WDT]#\tPlayback not running, restarting last station %d", config.lastStation());
+              sendCommand({PR_PLAY, config.lastStation()});
+              return;
+          } else {
+            BOOTLOG("##[WDT]#\tPlayback ok, isStopped: %d, isStoppedByUser: %d", player.isStopped(), player.isStoppedByUser());
+            esp_task_wdt_reset();
+          }
+        } else {
+          BOOTLOG("##[WDT]#\tSmartstart off");
+          esp_task_wdt_reset();
+        }
+    }
 }
 
 void Player::setOutputPins(bool isPlaying) {
@@ -184,6 +228,7 @@ void Player::setOutputPins(bool isPlaying) {
 }
 
 void Player::_play(uint16_t stationId) {
+  disableStopByUser();
   log_i("%s called, stationId=%d", __func__, stationId);
   setError("");
   setDefaults();
@@ -290,8 +335,10 @@ void Player::next() {
 
 void Player::toggle() {
   if (_status == PLAYING) {
+    enableStopByUser();
     sendCommand({PR_STOP, 0});
   } else {
+    disableStopByUser();
     sendCommand({PR_PLAY, config.lastStation()});
   }
 }

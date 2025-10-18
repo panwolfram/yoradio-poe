@@ -274,7 +274,7 @@ void Nextion::loop() {
           config.saveValue(&config.store.audioinfo, static_cast<bool>(scanDigit));
         }
         if (sscanf(rxbuf, "smartstart=%d", &scanDigit) == 1){
-          config.saveValue(&config.store.smartstart, static_cast<uint8_t>(scanDigit==0?2:1));
+          // config.saveValue(&config.store.smartstart, static_cast<uint8_t>(scanDigit==0?2:1));
         }
         if (sscanf(rxbuf, "addssid=%s", scanBuf) == 1){
           wifisettings+=(String(scanBuf)+"\t");

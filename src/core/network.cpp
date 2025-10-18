@@ -249,6 +249,7 @@ void MyNetwork::begin() {
     // raiseSoftAP();
     ethBegin();
     setEthParams();
+    BOOTLOG("##[BOOT]#\tExiting due to no SSIDs");
     return;
   }
 
@@ -256,14 +257,16 @@ void MyNetwork::begin() {
     if (!ethBegin()) {
       // raiseSoftAP();                  // keep AP fallback for first-time config
       setEthParams();
-      Serial.println("##[BOOT]#\tEthernet init failed!");
+      BOOTLOG("##[BOOT]#\tEthernet init failed!");
       return;
     }
     Serial.println(".");
     status = CONNECTED;
 
     // start services & network params
+    BOOTLOG("Starting netserver");
     netserver.begin(true);
+    BOOTLOG("Starting telnet");
     telnet.begin(true);
     display.putRequest(NEWIP, 0);
   } else {
@@ -291,6 +294,7 @@ void MyNetwork::begin() {
 /* ================= ETH params / SNTP / mDNS ================= */
 void MyNetwork::setEthParams(){
   // Hostname + mDNS
+  BOOTLOG("Setting ETH params");
   if(strlen(config.store.mdnsname)>0){
     ETH.setHostname(config.store.mdnsname);
     MDNS.begin(config.store.mdnsname);
@@ -319,6 +323,7 @@ void MyNetwork::setEthParams(){
                config.getTimezoneOffset(),
                config.store.sntp1);
   }
+  BOOTLOG("ETH params set");
 }
 
 /* ================= misc kept from original ================= */
