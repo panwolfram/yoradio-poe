@@ -14,10 +14,10 @@
 #include <ETH.h>
 
 // --- TTGO T-Internet-POE (LAN8720A) wiring ---
-static const int ETH_PHY_ADDR   = 0;
-static const int ETH_POWER_PIN  = -1;    // no dedicated power pin on this board
-static const int ETH_MDC_PIN    = 23;
-static const int ETH_MDIO_PIN   = 18;
+static const int ETH_PHY_ADDR     = 0;
+static const int ETH_POWER_PIN    = 12;    // no dedicated power pin on this board
+static const int ETH_MDC_PIN      = 23;
+static const int ETH_MDIO_PIN     = 18;
 static const eth_phy_type_t ETH_TYPE = ETH_PHY_LAN8720;
 // Most T-Internet-POE boards use 50 MHz clock on GPIO17 (ESP32 outputs it)
 static const eth_clock_mode_t ETH_CLK_MODE = ETH_CLOCK_GPIO17_OUT;
